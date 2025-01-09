@@ -12,7 +12,7 @@ app.post("/", (req, res) => {
         components: [
           {
             type: "text",
-            text: "🟢 *Stanje:* Vse storitve delujejo nemoteno..",
+            text: "🟢 *Stanje:* Vse storitve delujejo nemoteno.",
           }
         ]
       }
