@@ -12,7 +12,15 @@ app.post("/", (req, res) => {
         components: [
           {
             type: "text",
-            text: "Hello! This is a dynamic status page hosted on Vercel."
+            text: "✅ **Status:** All systems operational"
+          },
+          {
+            type: "text",
+            text: "### [Scheduled] Database Maintenance"
+          },
+          {
+            type: "text",
+            text: "We are planning a scheduled maintenance during that time. [Read More](https://your-status-page-url.com)"
           }
         ]
       }
