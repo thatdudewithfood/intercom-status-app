@@ -4,11 +4,7 @@
       "components": [
         {
           "type": "text",
-          "text": "⚠️ **Notice:** Our system is currently down. We are working on it."
-        },
-        {
-          "type": "text",
-          "text": "Thank you for your patience!"
+          "text": "Hello, Haris! This is a test message from your Intercom app."
         }
       ]
     }
