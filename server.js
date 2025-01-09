@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Default route for root URL
 app.get('/', (req, res) => {
-  res.send('This is the Intercom Status App.');
+  res.send('This is the Intercom Status App. Updated 14-45-00');
 });
 
 // POST endpoint for the Initialize Flow Webhook URL
@@ -17,7 +17,7 @@ app.post('/', (req, res) => {
         components: [
           {
             type: 'iframe',
-            url: 'https://<your-vercel-project-url>/dynamic-content',
+            url: 'https://intercom-status-app.vercel.app/dynamic-content',
             height: 300
           }
         ]
