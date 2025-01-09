@@ -19,11 +19,7 @@ app.post("/", (req, res) => {
           },
           {
             type: "text",
-            text: "📅 Vzdrževalna dela"
-          },
-                    {
-            type: "text",
-            text: "Trenutno ni načrtovanih vzdrževalnih del."
+            text: "🚧 Trenutno ni načrtovanih vzdrževalnih del."
           }
         ]
       }
