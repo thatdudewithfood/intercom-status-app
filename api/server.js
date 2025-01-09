@@ -12,18 +12,20 @@ app.post("/", (req, res) => {
         components: [
           {
             type: "text",
-            text: "✅ **Status: All systems operational**"
+            text: "🟢 *Stanje:* Vse storitve delujejo nemoteno.",
+            style: "header"
+          },
+              {
+            type: "text",
+            text: "🟢 *Stanje:* Vse storitve delujejo nemoteno.",
+            style: "error"
           },
           {
             type: "divider"
           },
           {
             type: "text",
-            text: "[Scheduled] Database Maintenance"
-          },
-          {
-            type: "text",
-            text: "We are planning a scheduled maintenance during that time. [Read More](https://your-status-page-url.com)"
+            text: "📅 Vzdrževanje: Trenutno ni načrtovanih vzdrževalnih del."
           }
         ]
       }
