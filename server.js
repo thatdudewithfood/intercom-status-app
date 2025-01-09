@@ -4,6 +4,11 @@ const app = express();
 // Middleware to parse JSON requests
 app.use(express.json());
 
+// Default route for root URL
+app.get('/', (req, res) => {
+  res.send('This is the Intercom Status App.');
+});
+
 // POST endpoint for the Initialize Flow Webhook URL
 app.post('/', (req, res) => {
   res.json({
