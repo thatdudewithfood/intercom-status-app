@@ -12,11 +12,14 @@ app.post("/", (req, res) => {
         components: [
           {
             type: "text",
-            text: "✅ **Status:** All systems operational"
+            text: "✅ **Status: All systems operational**"
+          },
+          {
+            type: "divider"
           },
           {
             type: "text",
-            text: "### [Scheduled] Database Maintenance"
+            text: "[Scheduled] Database Maintenance"
           },
           {
             type: "text",
