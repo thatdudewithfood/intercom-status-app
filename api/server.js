@@ -13,19 +13,17 @@ app.post("/", (req, res) => {
           {
             type: "text",
             text: "🟢 *Stanje:* Vse storitve delujejo nemoteno.",
-            style: "header"
-          },
-              {
-            type: "text",
-            text: "🟢 *Stanje:* Vse storitve delujejo nemoteno.",
-            style: "error"
           },
           {
             type: "divider"
           },
           {
             type: "text",
-            text: "📅 Vzdrževanje: Trenutno ni načrtovanih vzdrževalnih del."
+            text: "📅 Vzdrževalna dela"
+          },
+                    {
+            type: "text",
+            text: "Trenutno ni načrtovanih vzdrževalnih del."
           }
         ]
       }
